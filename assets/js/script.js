@@ -1,9 +1,10 @@
-var buttonEl = window.document.querySelector("#save-task");
+var formEl = document.querySelector('#task-form')
 var tasksToDoEl = document.querySelector('#tasks-to-do');
 
-console.dir(buttonEl);
 
-function addTaskHandler() {
+function addTaskHandler(event) {
+
+    event.preventDefault();
     
     // create element when button is clicked
     var taskItemEl = document.createElement("li");
@@ -19,4 +20,5 @@ function addTaskHandler() {
     
 };
 
-buttonEl.addEventListener("click", addTaskHandler);
+// runs function addTaskHandler() when clicked
+formEl.addEventListener("submit", addTaskHandler);
