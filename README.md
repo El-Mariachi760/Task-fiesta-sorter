@@ -7,3 +7,4 @@ https://el-mariachi760.github.io/Task-fiesta-sorter/
 
 Screen shot:
 
+![taskinator](https://user-images.githubusercontent.com/94568874/166128702-7267faed-e5a4-4a93-8c71-38dbe88aa717.png)
